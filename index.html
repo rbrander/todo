@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ToDo list</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+  <script type="text/javascript" src="app.js" defer="true"></script>
+</head>
+<body>
+  <div class="flex flex-column ma3">
+    <div class="bg-black white helvetica tl f3 pv2 pl3 br4 fw9 br--top">Todo List</div>
+    <div class="ba pa2">
+      <input
+        id="txtNewTodo"
+        type="text"
+        class="w-100 f3 mb3 pa1 outline-0 shadow-0 b--light-silver bw1 bt-0 br-0 bl-0 bb1"
+        placeholder="What would you like to do?"
+      />
+      <div id="items" class="f4 pl3 mb2">
+        <div>Item one</div>
+        <div>Item two</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
